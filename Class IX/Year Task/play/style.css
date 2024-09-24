@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: rgb(189, 55, 55);
+    
+}
+.nav-item{
+    list-style: none;
+    padding: 20px;
+    >a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.navigation{
+    display: flex;
+}
