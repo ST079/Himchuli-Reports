@@ -32,6 +32,7 @@
       color: grey;
     }
   }
+
   .search {
     > input{
       width: 100%;
@@ -43,8 +44,14 @@
     }
   }
 
-
   .contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 50px;
+  }
+
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(175, 27, 27);
   }
